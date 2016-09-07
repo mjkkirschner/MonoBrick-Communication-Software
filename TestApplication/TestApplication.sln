@@ -1,18 +1,48 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication.csproj", "{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoBrickTest", "MonoBrickTest.csproj", "{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoMonoBrick", "..\DynamoMonoBrick\DynamoMonoBrick.csproj", "{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleConsoleTest", "..\simpleConsoleTest\simpleConsoleTest.csproj", "{F8A438F4-A061-4660-BCC3-D9251B133532}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}.Debug|x86.ActiveCfg = Debug|x86
 		{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}.Debug|x86.Build.0 = Debug|x86
+		{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}.Release|Any CPU.ActiveCfg = Release|x86
 		{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}.Release|x86.ActiveCfg = Release|x86
 		{95F1547C-7FA7-4854-A8F2-2533AD9E5E04}.Release|x86.Build.0 = Release|x86
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A2B8BA5-B071-4F5B-B8DB-EF9C0C646D20}.Release|x86.Build.0 = Release|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Debug|x86.Build.0 = Debug|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Release|x86.ActiveCfg = Release|Any CPU
+		{F8A438F4-A061-4660-BCC3-D9251B133532}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = TestApplication.csproj
